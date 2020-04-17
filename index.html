@@ -2,9 +2,34 @@
 <html>
 <head>
   <title>My Webpage </title>
+  <style>
+      input[type=text] [value=Red] {
+            background-color: Red;
+      }
+      input[type=password] [value=Green] {
+            background-color: Green;
+      }
+
+      input[value=Blue] {
+            background-color: Blue;
+      }
+  </style>
 </head>
 <body>
   Hello , World!, Hello Hello Hello
   This is the added feature
+  <form>
+    <div>
+  <input name="name" type="text" placeholder="Name">
+  <input name="password" type="password" placeholder="Password">
+</div>
+<div>
+  Favorite Color?
+  <input name="Color" type="radio" value="Red"> Red
+  <input name="Color" type="radio" value="Green"> Green
+  <input name="Color" type="radio" value="Blue"> Blue
+</div>
+  </form>
+
 </body>
-</html>    
+</html>
