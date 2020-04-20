@@ -1,0 +1,13 @@
+p,ul{
+  color: white;
+  font-family: Arial;
+  font-size: 15px;
+  padding: 50px;
+}
+.container{
+  background-color: #F4FF65;
+  font-style: italic;
+  margin: 20px;
+  padding: 20px;
+  width: 600px;
+}
