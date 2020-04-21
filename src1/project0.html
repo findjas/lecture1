@@ -3,33 +3,37 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <head>
     <title>My Project 0</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="project0.css">
     <style>
-          h1 {
-            padding: 100px;
-            text-align: center;
+          #section1 {
+            padding: 30px;
+            text-align: left;
             color: white;
-            font-size: 50px;
+            font-size: 25px;
             font-family: Arial;
-            font-weight: bold;
+            font-weight: normal;
             }
           body {
             background-image: url(abstract.jpg);
+            background-size: cover;
               }
     </style>
   </head>
   <body>
-    <h1>WELCOME TO MY PAGE!</h1>
-    <p>This is my first project designing a webpage using HTML.</p>
-    <div class="container">
+    <div class="jumbotron">
+      <h1 class="display-4">WELCOME TO MY PAGE!!</h1>
+      <p class="lead">This is my first project designing a webpage using HTML.</p>
+      <hr class="my-4">
       <ul>
-      <li>Here I'll be demonstrating use of a few paradigms and attributes in HTML.</li>
-      <li>I'll be styling the pages using CSS style sheets.</li>
-      <li>SASS will also be used in certain cases to demonstrate compiling into CSS.</li>
+          <li>Here I'll be demonstrating use of a few paradigms and attributes in HTML.</li>
+          <li>I'll be styling the pages using CSS style sheets.</li>
+          <li>SASS will also be used in certain cases to demonstrate compiling into CSS.</li>
       </ul>
+  <a class="btn btn-primary btn-lg" href="#section1" role="button">Learn more</a>
     </div>
-    <div>
-      <p> This webiste will have four sections to it, Namely:</p>
+      <div>
+      <p id="section1"> This webiste will have four sections to it, Namely:</p>
       <ol id="PList">
         <div><a href="Page1.html">The Tables page</a></div>
         <div><a href="Page2.html">The Bootstrap page</a></div>
