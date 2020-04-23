@@ -3,65 +3,43 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <head>
         <title>Presidents</title>
+        <link rel="stylesheet" href="project0.css">
         <style>
-            table {
-                border: 3px solid green;
-                border-collapse: collapse;
-                margin-left: auto;
-                margin-right: auto;
-                width: 60%;
+          .button2{
+            background-color: #4A8CF8;
+            border: none;
+            margin:10px;
+            width:200px;
+            padding: 20px;
+            color: white;
+            font-family: arial;
+            cursor: pointer;
             }
-
-            th, td {
-                border: 1px solid black;
-                padding: 5px;
-                text-align: center;
-            }
-
-            td{
-
-              font-style: normal;
-              font-family: cursive;
-              color: red
-            }
-
-            th {
-                background-color: #E2D52E;
-            }
-
-            h1 {
-                text-align: center;
-                font-family: fantasy;
-                font-style: italic;
-                }
-            body {
-                  background-color: yellow
-                  }
-        </style>
+          .button2:hover {
+            background-color: #0641A2;
+          }
+          h2{
+            font-family: arial;
+            color: white;
+            font-weight: normal;
+          }
+          </style>
     </head>
     <body>
-        <h1>Presidents</h1>
-        <table>
-            <tr>
-                <th>First Name</th>
-                <th>Last Name</th>
-                <th>Years in Office</th>
-            </tr>
-            <tr>
-                <td>George</td>
-                <td>Washington</td>
-                <td>1789-1797</td>
-            </tr>
-            <tr>
-                <td>John</td>
-                <td>Adams</td>
-                <td>1797-1801</td>
-            </tr>
-            <tr>
-                <td>Thomas</td>
-                <td>Jefferson</td>
-                <td>1801-1809</td>
-            </tr>
-        </table>
+        <div class="main2">
+          <div class="SubMain1">
+            <a href="Project0.html">
+              <button class="button2">Homepage</button></a>
+            <a href="Page1.html">
+              <button class="button2">My Family</button></a>
+            </div>
+          <div class="SubMain2"><h2>Sign Up for More Info</h2>
+            <div style="padding-top: 50px"><input name="Name" placeholder="Full Name"> <br><br>
+            <input name="Email" placeholder="email" type="email"> <br><br>
+            <input name="Password" placeholder="password" type="password"> <br><br>
+            <input name="password" placeholder="confirm password" type="password"> <br><br>
+            <a href="Page3.html"><button>Subscribe</button></a>
+            </div>
+             <div>
     </body>
 </html>

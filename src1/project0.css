@@ -63,3 +63,19 @@ background-color: #797979;
   flex: 85%;
 padding: 20px;
 }
+
+.main2 {
+  display: flex;
+  height: 1000px;
+}
+.SubMain1 {
+  flex: 10%;
+  background-color: #BFC6CB;
+  padding: 20px;
+  padding-top: 100px;
+}
+.SubMain2 {
+  flex: 90%;
+  background-color: #E4AE56;
+  padding-left: 200px;
+}
